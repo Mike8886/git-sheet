@@ -18,3 +18,10 @@ $ git remote add origin git@github.com:%ИМЯ_АККАУНТА%/first-project.g
 
 HEAD - это файл содержащий самый хеш последнего пуша
 
+### В итоге git status показывает только следующие состояния файлов:
+
+ - staged (Changes to be committed в выводе git status);
+
+ - modified (Changes not staged for commit);
+
+ - untracked (Untracked files).
